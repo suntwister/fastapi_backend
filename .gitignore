@@ -18,6 +18,3 @@ env/
 .benv
 .benv/
 
-# VSCode or IDE settings
-.vscode/
-.idea/
