@@ -83,7 +83,7 @@ def login(user: LoginRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-# Run server directly (optional)
+# Run server 
 if __name__ == "__main__":
     uvicorn.run(app, host=os.getenv("host"), port=int(os.getenv("port")))
     
