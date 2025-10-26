@@ -1,18 +1,17 @@
-# Ignore environment variables and sensitive files
+# Environment variables and sensitive files
 .env
 
-# Ignore Python cache and temporary files
+# Python cache and temporary files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Ignore local database or logs
+# Local database or logs
 *.db
-*.sqlite3
 *.log
 
-# Ignore virtual environments
+# virtual environments
 venv/
 env/
 .benv/
